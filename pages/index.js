@@ -26,7 +26,6 @@ export default function Home() {
       }
       console.log(data.result);
       setResult(data.result);
-      setInput("");
     } catch (error) {
       // Consider implementing your own error handling logic here
       console.error(error);

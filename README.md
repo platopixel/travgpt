@@ -1,8 +1,12 @@
 # Story Generator 3001
 
 [OpenAI API](https://beta.openai.com/docs/quickstart)
+
 [Next.js](https://nextjs.org/)
+
 [React](https://reactjs.org/)
+
+Enter the attributes of your new feature and get a story description to use on your scrum board.
 
 ## Setup
 
