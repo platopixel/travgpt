@@ -7,6 +7,7 @@
 [React](https://reactjs.org/)
 
 Enter the attributes of your new feature and get a story description to use on your scrum board.
+![Screen Shot 2023-01-02 at 2 40 17 PM](https://user-images.githubusercontent.com/6664318/210280434-cb7d3535-3b91-4f3f-95e2-754011252770.png)
 
 ## Setup
 
