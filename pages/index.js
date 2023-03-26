@@ -38,7 +38,7 @@ export default function Home() {
             <main className={styles.main}>
                 <h3>TravGPT</h3>
                 <form onSubmit={onSubmit}>
-                    <input
+                    <textarea
                         type="text"
                         name="userInput"
                         placeholder=""
