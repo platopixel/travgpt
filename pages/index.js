@@ -37,17 +37,19 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h3>TravGPT</h3>
-                <form onSubmit={onSubmit}>
-                    <textarea
-                        type="text"
-                        name="userInput"
-                        placeholder=""
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                    />
-                    <input type="submit" value="Prompt" />
-                </form>
-                <div className={styles.result}>{result}</div>
+                <div className={styles.body}>
+                    <form onSubmit={onSubmit}>
+                        <textarea
+                            type="text"
+                            name="userInput"
+                            placeholder=""
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                        />
+                        <input type="submit" value="Prompt" />
+                    </form>
+                    <div className={styles.result}>{result}</div>
+                </div>
             </main>
         </div>
     );
